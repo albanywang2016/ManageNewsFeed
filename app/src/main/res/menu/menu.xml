@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/action_login_or_register"
+            android:orderInCategory="100"
+            android:title="@string/login"
+            android:icon="@drawable/ic_menu_login"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/action_refresh"
+            android:orderInCategory="100"
+            android:title="@string/refresh"
+            android:icon="@drawable/ic_refresh_black_24dp"
+            app:showAsAction="ifRoom"/>
+    </group>
+
+    <group
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/action_domestic"
+            android:orderInCategory="100"
+            android:title="@string/domestic"
+            android:itemBackground="@color/blue"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/action_international"
+            android:orderInCategory="100"
+            android:title="@string/international"
+            android:itemBackground="@color/purple"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/action_business"
+            android:orderInCategory="100"
+            android:title="@string/business"
+            android:itemBackground="@color/green"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/action_entertainment"
+            android:orderInCategory="100"
+            android:title="@string/entertainment"
+            android:itemBackground="@color/orange"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/action_sport"
+            android:orderInCategory="100"
+            android:title="@string/sport"
+            android:itemBackground="@color/red"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/action_science"
+            android:orderInCategory="100"
+            android:title="@string/science"
+            android:itemBackground="@color/maroon"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/action_life"
+            android:orderInCategory="100"
+            android:title="@string/life"
+            android:itemBackground="@color/olive"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/action_local"
+            android:orderInCategory="100"
+            android:title="@string/local"
+            android:itemBackground="@color/fuchsia"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/action_magazine"
+            android:orderInCategory="100"
+            android:title="@string/magazine"
+            android:itemBackground="@color/aqua"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/action_vedio"
+            android:orderInCategory="100"
+            android:title="@string/vedio"
+            android:itemBackground="@color/aqua"
+            app:showAsAction="ifRoom"/>
+    </group>
+
+    <group
+        android:id="@+id/group3">
+        <item
+            android:id="@+id/action_share"
+            android:title="Share"
+            android:icon="@drawable/ic_menu_share"
+            android:actionProviderClass=
+                "android.widget.ShareActionProvider"
+            app:showAsAction="ifRoom"/>
+
+        <!--
+        <item
+            android:id="@+id/action_setting"
+            android:orderInCategory="100"
+            android:title="@string/setting"
+            android:itemBackground="@color/aqua"
+            android:icon="@drawable/ic_settings"
+            app:showAsAction="ifRoom"/>
+            -->
+    </group>
+
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_hi_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:paddingTop="3dp"
+            android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_hi_source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_hi_image"
+                android:paddingLeft="3dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tv_hi_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_hi_image"
+                android:layout_below="@+id/tv_hi_source"
+                android:paddingTop="3dp"
+                android:paddingLeft="3dp"
+                android:text="TextView"/>
+
+            <TextView
+                android:id="@+id/tv_hi_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_hi_image"
+                android:layout_below="@+id/tv_hi_title"
+                android:paddingTop="3dp"
+                android:paddingLeft="3dp"
+                android:text="TextView" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

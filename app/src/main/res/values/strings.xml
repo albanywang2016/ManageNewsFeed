@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">"Delete News"</string>
+
+    <string name="username">ユーザー名</string>
+    <string name="enter_username">ユーザー名を入力</string>
+    <string name="password">パスワード</string>
+    <string name="re_password">パスワードを再入力</string>
+    <string name="enter_password">パスワードを入力</string>
+    <string name="email">Eメール</string>
+    <string name="re_email">Eメールを再入力</string>
+    <string name="enter_email">メールアドレスを入力</string>
+
+    <string name="forgot_password">パスワードをお忘れですか</string>
+    <string name="already_user">すでにユーザーですか？ ログイン</string>
+    <string name="not_user_yet">まだユーザーではありませんか？ 登録</string>
+    <string name="login">ログイン</string>
+    <string name="register">登録</string>
+    <string name="cancel">キャンセル</string>
+    <string name="send">送信</string>
+    <string name="domestic">国内</string>
+    <string name="international">国際</string>
+    <string name="business">経済</string>
+    <string name="entertainment">エンタメ</string>
+    <string name="sport">スポーツ</string>
+    <string name="science">科学</string>
+    <string name="life">ライフ</string>
+    <string name="local">地域</string>
+    <string name="magazine">雑誌</string>
+    <string name="vedio">動画</string>
+    <string name="enderscore">_</string>
+    <string name="setting">設定</string>
+    <string name="not_register_yet">まだ登録していない、ここで登録：(登録すると、ソフトウェアのアップデート情報が送信されます。)</string>
+    <string name="register_already">既に登録されていますか？ここでログイン：</string>
+    <string name="refresh">リフレッシュ</string>
+    <string name="share">AtNews 無料新聞プレイ</string>
+    <string name="share_via">共有経由</string>
+    <string name="download_from">プレイストアからダウンロードしてください. https://play.google.com/store/apps/details?id=tech.japan.news.messagecardview </string>
+
+    <string name="could_not_login">ログインできませんでした</string>
+    <string name="login_successfully">ログインに成功しました</string>
+    <string name="could_not_get_password">パスワードを取得できません</string>
+    <string name="should_not_be_empty">入力は空であってはならない</string>
+    <string name="input_wrong">すべてのフィールドを正しく入力したことを確認してください</string>
+    <string name="input_not_the_same">再入力の内容が同じでない</string>
+    <string name="your_password_is">あなたのパスワード:</string>
+    <string name="duplicate_entry">重複エントリ,あなたのユーザー名または電子メールは既に存在します</string>
+    <string name="successfully_registered">登録成功</string>
+    <string name="error">エラー!</string>
+
+    <string name="first_name">姓</string>
+    <string name="last_name">名</string>
+    <string name="gender">性別</string>
+    <string name="city">都市</string>
+    <string name="age">年齢</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="please_update_your_package">ご使用されているアプリが古いのですが、更新してください</string>
+
+</resources>
